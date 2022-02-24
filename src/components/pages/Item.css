@@ -1,0 +1,67 @@
+.ItemHead {
+  width: 100%;
+  border-bottom: 1px solid #9d9d9d;
+}
+#path2 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 5vw;
+  padding-top: 28px;
+  margin-bottom: 10px;
+  color: #9d9d9d;
+  width: 80vw;
+}
+.ColBod {
+  width: 90%;
+  margin: auto;
+}
+.category {
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 70px;
+  padding-bottom: 20px;
+  float: none;
+  display: block;
+}
+.sectitle {
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 20px;
+  float: none;
+  display: block;
+}
+.Poster {
+  width: 35%;
+  position: relative;
+  float: left;
+}
+.Poster img {
+  width: 100%;
+}
+.Info {
+  position: relative;
+  width: 50%;
+  float: left;
+  margin-left: 25px;
+}
+.Info p {
+  font-weight: 400;
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  .Poster {
+    width: 100%;
+    float: none;
+  }
+  .Info {
+    width: 100%;
+    margin: auto;
+  }
+  .sectitle {
+    font-size: 30px;
+  }
+  .category {
+    font-size: 40px;
+  }
+}
